@@ -1,0 +1,31 @@
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #333;
+}
+
+.container {
+    max-width: 90%;
+}
+
+.card-pop img{
+    max-width:100%;
+}
+
+.scroll-fncci{
+    max-height:1500px;
+    overflow-y:scroll;
+}
+
+@media (min-width:1024px){
+.modal-dialog {
+     max-width: 100% !important; 
+    margin: 1.75rem auto;
+}
+}
+
+.form-control{
+    font-size:14px !important;
+}

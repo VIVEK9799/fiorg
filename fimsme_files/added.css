@@ -1,0 +1,110 @@
+#menu-header ul li{
+	float: left;
+}
+
+#menu-header ul li a{
+	color: #0e4f91;
+	font-size: 14px;
+	padding: 10px;
+	display: block;
+	border-bottom: 1px solid #0e4f91
+	;
+}
+
+input{
+	padding: 8px !important;
+	 font-size: 13px !important;
+}
+
+
+
+select.form-control:not([size]):not([multiple]) {
+    height: calc(3.25rem + 2px) !important;
+    font-size: 13px;
+    /*padding: 10px !important*/
+}
+
+.added_search {
+	padding: 10px 20px;
+	font-size: 14px;
+	background: #0e4f91;
+	color: #fff;
+}
+
+.form_search {
+	padding: 20px;
+    background: #e6e8eb;
+}
+
+.ne-main-menu ul ul ul{
+	display: none !important;
+}
+.ne-main-menu ul ul ul li:hover > ul{
+	display: block !important; 
+	left: 30px;
+	position: absolute;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999999;
+    background: #0e4f91;
+}
+
+.ml-2 {
+	margin-left: 1rem;
+}
+
+@media  only screen and (max-width: 768px) {  
+    .d-none_respo {
+        display:none !important;
+    }
+    
+    .preview-1 .nivo-controlNav {
+        bottom: 20px !important;
+        left: 27px;
+    }
+    #ensign-nivoslider-4 > .nivo-caption {
+    top: 80% !important;
+    }
+    
+    #ensign-nivoslider-4 {
+        margin-bottom: 25px !important;
+    }
+    
+    footer .footer-area-bottom .footer-logo {
+    text-align: center;
+    float: none !important;
+   }
+   .website-title{font-size: 13px !important;}
+   
+   #owl-demo .item img{
+       height: auto !important;
+   }
+   
+   footer .footer-area-bottom p {
+    color: #fff !important;
+    text-align:center !important;
+    }
+    
+    ul.footer-social {
+        text-align: center !important;
+    }
+    
+    .ne-sidebar {
+        margin-bottom: 30px;
+        padding-left: 5px !important;
+    }
+    
+        .sidebar-break-md {
+        margin-top: 0px !important;
+    }
+    
+    .modal {
+        height: auto !important;
+    }
+}
+
